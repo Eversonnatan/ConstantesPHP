@@ -18,7 +18,7 @@ new Aplicacao('Gumeric');
 new Aplicacao('Abiord');
 new Aplicacao('Evolution');
 
-echo '<br> Quantidade de aplicações = ' . Aplicacao::$Quantidade . "<br>";
+echo '<br> Quantidade de aplicações = ' .  Aplicacao::$Quantidade .  "<br>";
 
 
 

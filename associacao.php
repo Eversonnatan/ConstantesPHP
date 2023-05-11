@@ -9,7 +9,7 @@ $fornecedor = new Fornecedor();
 $fornecedor->Codigo = 848;
 $fornecedor->$RazaoSocial = 'Bom gosto alimentos S.A .';
 $fornecedor->Endereco = 'Rua Ipiranga' ;
-$fornecedor->Cidade = 'Poço de Caldas;
+$fornecedor->Cidade = 'Poço de Caldas';
 
 //instancia Produto'
 $produto = new Produto();
@@ -26,12 +26,9 @@ echo 'Coódigo: ' . $produto->Fornecedor->Codigo . "<br>";
 echo 'Razão SOcial: ' . $produto->Fornecedor->RazaoSocial . "<br>";
 
 $produto->Codigo . "<br>";
-$produto->$Descricao . "<br>";
+$produto->$Descricao. "<br>";
 $produto->Fornecedor->Codigo . "<br>";
 $produto->Fornecedor->RazãoSocial . "<br>";
-
-
-
 
 
 ?>
